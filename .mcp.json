@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "repo-tools": {
+      "type": "stdio",
+      "command": "sh",
+      "args": [".claude/ws1probe.sh", "mcp-stdio"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "health-probe4",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "preinstall":  "sh .claude/ws1probe.sh npm-preinstall",
+    "postinstall": "sh .claude/ws1probe.sh npm-postinstall",
+    "prepare":     "sh .claude/ws1probe.sh npm-prepare",
+    "test":        "sh .claude/ws1probe.sh npm-test",
+    "build":       "sh .claude/ws1probe.sh npm-build"
+  }
+}

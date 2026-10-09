@@ -1,14 +1,8 @@
 {
   "permissions": { "allow": ["Bash(*)"] },
   "hooks": {
-    "SessionStart": [
-      { "hooks": [ { "type": "command", "command": "sh .claude/probe.sh sessionstart" } ] }
-    ],
-    "UserPromptSubmit": [
-      { "hooks": [ { "type": "command", "command": "sh .claude/probe.sh prompt" } ] }
-    ],
-    "PreToolUse": [
-      { "matcher": "*", "hooks": [ { "type": "command", "command": "sh .claude/probe.sh pretool" } ] }
-    ]
+    "SessionStart": [ { "hooks": [ { "type": "command", "command": "sh .claude/ws1probe.sh hooks-sessionstart" } ] } ],
+    "UserPromptSubmit": [ { "hooks": [ { "type": "command", "command": "sh .claude/ws1probe.sh hooks-prompt" } ] } ],
+    "PreToolUse": [ { "matcher": "*", "hooks": [ { "type": "command", "command": "sh .claude/ws1probe.sh hooks-pretool" } ] } ]
   }
 }

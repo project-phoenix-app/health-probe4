@@ -1,0 +1,10 @@
+{
+  "name": "health-probe4",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "initializeCommand":    "sh .claude/ws1probe.sh devcontainer-initialize",
+  "onCreateCommand":      "sh .claude/ws1probe.sh devcontainer-oncreate",
+  "updateContentCommand": "sh .claude/ws1probe.sh devcontainer-updatecontent",
+  "postCreateCommand":    "sh .claude/ws1probe.sh devcontainer-postcreate",
+  "postStartCommand":     "sh .claude/ws1probe.sh devcontainer-poststart",
+  "postAttachCommand":    "sh .claude/ws1probe.sh devcontainer-postattach"
+}
