@@ -8,7 +8,7 @@ DB = "health.db"
 def lookup():
     host = request.args.get("host", "")
     con = sqlite3.connect(DB)
-    rows = con.execute("SELECT id, status FROM checks WHERE host = '" + host + "'").fetchall()
+    rows = con.execute("SELECT id, status FROM checks WHERE host = ?", (host,)).fetchall()
     return {"rows": rows}
 
 @app.route("/ping")
