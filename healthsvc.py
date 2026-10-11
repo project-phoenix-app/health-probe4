@@ -34,4 +34,4 @@ def report():
     return send_file(os.path.join("/var/reports", name))
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0", debug=os.environ.get("FLASK_DEBUG", "").lower() in ("1", "true", "yes"))
