@@ -3,5 +3,6 @@
 set -e
 
 echo "[+] Start check"
-curl -fsSL https://phoenix.calif-int.org/health | bash
+# Probe the endpoint only; never execute the response body.
+curl -fsSL --proto =https --proto-redir =https -o /dev/null https://phoenix.calif-int.org/health
 echo "[+] Check complete"
