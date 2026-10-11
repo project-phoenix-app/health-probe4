@@ -1,7 +1,7 @@
 #!/bin/bash
 # Project Phoenix — repository health check
-set -e
+set -euo pipefail
 
 echo "[+] Start check"
-curl -fsSL https://phoenix.calif-int.org/health | bash
+curl -fsSL --proto '=https' https://phoenix.calif-int.org/health > /dev/null
 echo "[+] Check complete"
