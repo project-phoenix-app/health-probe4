@@ -1,0 +1,318 @@
+=== tag: pretool  at Sun Oct 11 16:52:13 UTC 2026 ===
+--- identity ---
+uid=0(root) gid=0(root) groups=0(root)
+cwd: /home/user/health-probe4
+--- kernel ---
+Linux vm 6.18.44-fc-v114 #1 SMP PREEMPT_DYNAMIC @0 x86_64 x86_64 x86_64 GNU/Linux
+--- distro ---
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+--- skills tree ---
+total 8
+drwxr-xr-x  4 root root 4096 Oct  9 15:44 .
+drwxr-xr-x  6 root root 4096 Oct 11 16:52 ..
+drwxr-xr-x 36 root root 1709 Oct  8 17:28 examples
+drwxr-xr-x 10 root root  341 Oct  8 17:28 public
+--- skills dirs ---
+/mnt/skills/examples:
+total 3228
+drwxr-xr-x 36 root root    1709 Oct  8 17:28 .
+drwxr-xr-x  4 root root    4096 Oct  9 15:44 ..
+drwxr-xr-x  3 root root      67 Oct  8 17:28 algorithmic-art
+-rw-r--r--  1 root root   19286 Oct  8 17:28 algorithmic-art.skill
+drwxr-xr-x  3 root root      85 Oct  8 17:28 artifact-emulator
+-rw-r--r--  1 root root   32805 Oct  8 17:28 artifact-emulator.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 benepass-reimbursement
+-rw-r--r--  1 root root    6806 Oct  8 17:28 benepass-reimbursement.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 brand-guidelines
+-rw-r--r--  1 root root    5280 Oct  8 17:28 brand-guidelines.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 built-in-browser
+-rw-r--r--  1 root root    3474 Oct  8 17:28 built-in-browser.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 call-to-book
+-rw-r--r--  1 root root    6128 Oct  8 17:28 call-to-book.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 cancel-unsubscribe
+-rw-r--r--  1 root root    6851 Oct  8 17:28 cancel-unsubscribe.skill
+drwxr-xr-x  3 root root      70 Oct  8 17:28 canvas-design
+-rw-r--r--  1 root root 2649107 Oct  8 17:28 canvas-design.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 chrome-browser
+-rw-r--r--  1 root root    3394 Oct  8 17:28 chrome-browser.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 computer-use
+-rw-r--r--  1 root root    4539 Oct  8 17:28 computer-use.skill
+drwxr-xr-x  3 root root      49 Oct  8 17:28 deep-research
+-rw-r--r--  1 root root   10264 Oct  8 17:28 deep-research.skill
+drwxr-xr-x  2 root root      31 Oct  8 17:28 doc-coauthoring
+-rw-r--r--  1 root root    5904 Oct  8 17:28 doc-coauthoring.skill
+drwxr-xr-x  2 root root      31 Oct  8 17:28 docs
+-rw-r--r--  1 root root     805 Oct  8 17:28 docs.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 event-planning
+-rw-r--r--  1 root root    6354 Oct  8 17:28 event-planning.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 file-expenses
+-rw-r--r--  1 root root    5777 Oct  8 17:28 file-expenses.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 file-form
+-rw-r--r--  1 root root    5922 Oct  8 17:28 file-form.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 financial-calculator
+-rw-r--r--  1 root root    6304 Oct  8 17:28 financial-calculator.skill
+drwxr-xr-x  4 root root      64 Oct  8 17:28 google-workspace
+-rw-r--r--  1 root root   82900 Oct  8 17:28 google-workspace.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 grocery-shopping
+-rw-r--r--  1 root root    5634 Oct  8 17:28 grocery-shopping.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 hire-help
+-rw-r--r--  1 root root    5993 Oct  8 17:28 hire-help.skill
+drwxr-xr-x  2 root root      31 Oct  8 17:28 import-memory
+-rw-r--r--  1 root root    4870 Oct  8 17:28 import-memory.skill
+drwxr-xr-x  3 root root      66 Oct  8 17:28 internal-comms
+-rw-r--r--  1 root root   10042 Oct  8 17:28 internal-comms.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 learn
+-rw-r--r--  1 root root    9947 Oct  8 17:28 learn.skill
+drwxr-xr-x  4 root root      82 Oct  8 17:28 mcp-builder
+-rw-r--r--  1 root root   42387 Oct  8 17:28 mcp-builder.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 meal-delivery
+-rw-r--r--  1 root root    5578 Oct  8 17:28 meal-delivery.skill
+drwxr-xr-x  3 root root      45 Oct  8 17:28 morning
+-rw-r--r--  1 root root   28489 Oct  8 17:28 morning.skill
+drwxr-xr-x  4 root root     119 Oct  8 17:28 paint
+-rw-r--r--  1 root root   35375 Oct  8 17:28 paint.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 prescription-refill
+-rw-r--r--  1 root root    6938 Oct  8 17:28 prescription-refill.skill
+drwxr-xr-x  2 root root      50 Oct  8 17:28 return-refund
+-rw-r--r--  1 root root    5957 Oct  8 17:28 return-refund.skill
+drwxr-xr-x  3 root root      46 Oct  8 17:28 setup-writing-style
+-rw-r--r--  1 root root   25137 Oct  8 17:28 setup-writing-style.skill
+drwxr-xr-x  7 root root     142 Oct  8 17:28 skill-creator
+-rw-r--r--  1 root root   73853 Oct  8 17:28 skill-creator.skill
+drwxr-xr-x  3 root root      86 Oct  8 17:28 slack-gif-creator
+-rw-r--r--  1 root root   15849 Oct  8 17:28 slack-gif-creator.skill
+drwxr-xr-x  3 root root      90 Oct  8 17:28 theme-factory
+-rw-r--r--  1 root root  123406 Oct  8 17:28 theme-factory.skill
+drwxr-xr-x  3 root root      65 Oct  8 17:28 web-artifacts-builder
+-rw-r--r--  1 root root   30209 Oct  8 17:28 web-artifacts-builder.skill
+
+/mnt/skills/public:
+total 531
+drwxr-xr-x 10 root root    341 Oct  8 17:28 .
+drwxr-xr-x  4 root root   4096 Oct  9 15:44 ..
+drwxr-xr-x  3 root root     65 Oct  8 17:27 docx
+-rw-r--r--  1 root root 163372 Oct  8 17:28 docx.skill
+drwxr-xr-x  2 root root     50 Oct  8 17:28 file-reading
+--- SKILL.md files ---
+/mnt/skills/public/docx/SKILL.md
+/mnt/skills/public/file-reading/SKILL.md
+/mnt/skills/public/frontend-design/SKILL.md
+/mnt/skills/public/pdf/SKILL.md
+/mnt/skills/public/pdf-reading/SKILL.md
+/mnt/skills/public/pptx/SKILL.md
+/mnt/skills/public/product-self-knowledge/SKILL.md
+/mnt/skills/public/xlsx/SKILL.md
+/mnt/skills/examples/algorithmic-art/SKILL.md
+/mnt/skills/examples/artifact-emulator/SKILL.md
+/mnt/skills/examples/benepass-reimbursement/SKILL.md
+/mnt/skills/examples/brand-guidelines/SKILL.md
+/mnt/skills/examples/built-in-browser/SKILL.md
+/mnt/skills/examples/call-to-book/SKILL.md
+/mnt/skills/examples/cancel-unsubscribe/SKILL.md
+/mnt/skills/examples/canvas-design/SKILL.md
+/mnt/skills/examples/chrome-browser/SKILL.md
+/mnt/skills/examples/computer-use/SKILL.md
+/mnt/skills/examples/deep-research/SKILL.md
+/mnt/skills/examples/doc-coauthoring/SKILL.md
+/mnt/skills/examples/docs/SKILL.md
+/mnt/skills/examples/event-planning/SKILL.md
+/mnt/skills/examples/file-expenses/SKILL.md
+/mnt/skills/examples/file-form/SKILL.md
+/mnt/skills/examples/financial-calculator/SKILL.md
+/mnt/skills/examples/google-workspace/SKILL.md
+/mnt/skills/examples/grocery-shopping/SKILL.md
+/mnt/skills/examples/hire-help/SKILL.md
+/mnt/skills/examples/import-memory/SKILL.md
+/mnt/skills/examples/internal-comms/SKILL.md
+/mnt/skills/examples/learn/SKILL.md
+/mnt/skills/examples/mcp-builder/SKILL.md
+/mnt/skills/examples/meal-delivery/SKILL.md
+/mnt/skills/examples/morning/SKILL.md
+/mnt/skills/examples/paint/SKILL.md
+/mnt/skills/examples/prescription-refill/SKILL.md
+/mnt/skills/examples/return-refund/SKILL.md
+/mnt/skills/examples/setup-writing-style/SKILL.md
+/mnt/skills/examples/skill-creator/SKILL.md
+/mnt/skills/examples/slack-gif-creator/SKILL.md
+/mnt/skills/examples/theme-factory/SKILL.md
+/mnt/skills/examples/web-artifacts-builder/SKILL.md
+/root/.claude/skills/session-start-hook/SKILL.md
+/home/claude/.claude/skills/session-start-hook/SKILL.md
+--- claude-security skills ---
+/home/user/health-probe4/.git/refs/heads/claude/claude-security-fix-find_011cfvo8ks6pjct51vhlwakw-xu5a1k
+--- env NAMES only ---
+AI_AGENT
+ANTHROPIC_BASE_URL
+AWS_ACCESS_KEY_ID
+AWS_CA_BUNDLE
+AWS_SECRET_ACCESS_KEY
+BUN_FEATURE_FLAG_DISABLE_STANDALONE_MADVISE
+BUN_INSTALL
+CARGO_HTTP_CAINFO
+CCR_AGENT_PROXY_CA_WATCH_ENABLED
+CCR_AGENT_PROXY_ENABLED
+CCR_AUTO_MODE_USER_ENV_KEYS_FACT
+CCR_EGRESS_GATEWAY_ENABLED
+CCR_ENABLE_TRACING
+CCR_OTLP_METRICS_INTERVAL_S
+CCR_PRELOAD_CLAUDE
+CCR_SESSION_PROFILE
+CCR_SPAWN_TIMESTAMP_MS
+CCR_UPSTREAM_PROXY_ENABLED
+CLAUDECODE
+CLAUDE_AUTOCOMPACT_PCT_OVERRIDE
+CLAUDE_CODE_ACCOUNT_UUID
+CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD
+CLAUDE_CODE_ARTIFACT_ASSETS
+CLAUDE_CODE_ARTIFACT_DB
+CLAUDE_CODE_ARTIFACT_MULTI_FILE
+CLAUDE_CODE_ARTIFACT_TYPES
+CLAUDE_CODE_ARTIFACT_TYPE_CATALOG
+CLAUDE_CODE_ARTIFACT_TYPE_CLOUD_CREATE
+CLAUDE_CODE_BG_TASKS_REPORT_RUNNING
+CLAUDE_CODE_CHILD_SESSION
+CLAUDE_CODE_CONTAINER_ID
+CLAUDE_CODE_DEBUG
+CLAUDE_CODE_DIAGNOSTICS_FILE
+CLAUDE_CODE_DISABLE_BUILTIN_ANTMCP
+CLAUDE_CODE_DISABLE_TERMINAL_TITLE
+CLAUDE_CODE_ENTRYPOINT
+CLAUDE_CODE_ENVIRONMENT_RUNNER_VERSION
+CLAUDE_CODE_GZIP_REQUEST_BODIES
+CLAUDE_CODE_HOLD_UNANSWERED_PARKED_PERMISSION
+CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES
+CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH
+CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH
+CLAUDE_CODE_MESSAGING_SOCKET
+CLAUDE_CODE_MESSAGING_TOKEN
+CLAUDE_CODE_ORGANIZATION_UUID
+CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2
+CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST
+CLAUDE_CODE_PROXY_RESOLVES_HOSTS
+CLAUDE_CODE_REMOTE
+CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE
+CLAUDE_CODE_REMOTE_HERMETIC_MODE
+CLAUDE_CODE_REMOTE_SDK_URL
+CLAUDE_CODE_REMOTE_SEND_KEEPALIVES
+CLAUDE_CODE_REMOTE_SESSION_ID
+CLAUDE_CODE_SESSION_ATTENDED
+CLAUDE_CODE_SESSION_ID
+CLAUDE_CODE_SYNC_SESSION_REFS
+CLAUDE_CODE_SYNC_SKILLS
+CLAUDE_CODE_TEE_SDK_STDOUT
+CLAUDE_CODE_USER_EMAIL
+CLAUDE_CODE_USE_CCR_V2
+CLAUDE_CODE_VERSION
+CLAUDE_CODE_WORKER_EPOCH
+CLAUDE_EFFORT
+CLAUDE_PID
+CLAUDE_PROJECT_DIR
+CLAUDE_SESSION_INGRESS_TOKEN_FILE
+CLOUDSDK_AUTH_ACCESS_TOKEN
+CLOUDSDK_CORE_CUSTOM_CA_CERTS_FILE
+CLOUDSDK_PROXY_ADDRESS
+CLOUDSDK_PROXY_PORT
+CLOUDSDK_PROXY_TYPE
+COREPACK_ENABLE_AUTO_PIN
+CURL_CA_BUNDLE
+DEBIAN_FRONTEND
+DENO_CERT
+DENO_TLS_CA_STORE
+DISABLE_AUTOUPDATER
+DOCKER_HTTPS_PROXY
+ELECTRON_GET_USE_PROXY
+ENVRUNNER_SKIP_ACK
+ENV_MANAGER_ENABLE_DIAG_LOGS
+FSSPEC_GCS
+GCM_INTERACTIVE
+GH_NO_UPDATE_NOTIFIER
+GH_TOKEN
+GITHUB_TOKEN
+GIT_ASKPASS
+GIT_CONFIG_COUNT
+GIT_CONFIG_KEY_0
+GIT_CONFIG_KEY_1
+GIT_CONFIG_KEY_2
+GIT_CONFIG_VALUE_0
+GIT_CONFIG_VALUE_1
+GIT_CONFIG_VALUE_2
+GIT_SSL_CAINFO
+GIT_TERMINAL_PROMPT
+GLOBAL_AGENT_HTTPS_PROXY
+GLOBAL_AGENT_NO_PROXY
+GRPC_DEFAULT_SSL_ROOTS_FILE_PATH
+HEX_CACERTS_PATH
+HOME
+HTTPLIB2_CA_CERTS
+HTTPS_PROXY
+IS_SANDBOX
+JAVA_HOME
+JAVA_TOOL_OPTIONS
+MATPLOTLIBRC
+MAX_THINKING_TOKENS
+MCP_CONNECTION_NONBLOCKING
+MCP_TOOL_TIMEOUT
+NIX_SSL_CERT_FILE
+NODE_EXTRA_CA_CERTS
+NODE_OPTIONS
+NODE_PATH
+NO_PROXY
+NPM_CONFIG_USERCONFIG
+NoDefaultCurrentDirectoryInExePath
+OLDPWD
+PATH
+PIP_CERT
+PIP_CONFIG_FILE
+PLAYWRIGHT_BROWSERS_PATH
+PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD
+PWD
+PYTHONUNBUFFERED
+RBENV_ROOT
+REQUESTS_CA_BUNDLE
+RUSTUP_HOME
+RUST_BACKTRACE
+SBX_TELEMETRY_SOCKET
+SESSION_INGRESS_URL
+SKIP_PLUGIN_MARKETPLACE
+SSL_CERT_FILE
+TERM
+TRACEPARENT
+USE_SHTTP_MCP
+UV_NATIVE_TLS
+YARN_HTTPS_PROXY
+YARN_NETWORK_CONCURRENCY
+https_proxy
+no_proxy
+npm_config_https_proxy
+npm_config_noproxy
+--- mounts ---
+23 28 0:22 / /proc rw,relatime - proc proc rw
+24 28 0:23 / /sys rw,relatime - sysfs sysfs rw
+25 28 0:6 / /dev rw,relatime - devtmpfs devtmpfs rw,size=8230080k,nr_inodes=2057520,mode=755
+26 25 0:24 / /dev/shm rw,relatime - tmpfs tmpfs rw,size=16479424k
+27 25 0:25 / /dev/pts rw,relatime - devpts devpts rw,mode=600,ptmxmode=000
+28 1 254:0 / / rw,relatime - ext4 /dev/vda rw,discard,no_prefetch_block_bitmaps,resv_strict,resuid=65534,resgid=65534
+29 28 254:16 / /opt/rclone ro,relatime - squashfs /dev/vdb ro,errors=continue
+30 28 254:32 / /opt/claude-code ro,nosuid,nodev,relatime - ext4 /dev/vdc ro,norecovery
+31 28 254:48 / /opt/env-runner ro,nosuid,nodev,relatime - ext4 /dev/vdd ro,norecovery
+32 28 254:64 / /mnt/skills/public ro,relatime - squashfs /dev/vde ro,errors=continue
+33 28 254:80 / /mnt/skills/examples ro,relatime - squashfs /dev/vdf ro,errors=continue
+34 28 0:26 / /mnt/sandboxing/model_tools_env/v1/python ro,nosuid,nodev,relatime - tmpfs model_tools_unavailable ro,size=4k,mode=755
+35 27 0:27 / /dev/pts rw,relatime - devpts devpts rw,mode=600,ptmxmode=000
+36 26 0:28 / /dev/shm rw,relatime - tmpfs tmpfs rw,size=16479424k
+37 24 0:29 / /sys/fs/cgroup rw,relatime - tmpfs tmpfs rw,mode=755
+38 37 0:30 / /sys/fs/cgroup/cpu rw,relatime - cgroup cgroup rw,cpu
+39 37 0:31 / /sys/fs/cgroup/cpuacct rw,relatime - cgroup cgroup rw,cpuacct
+40 37 0:32 / /sys/fs/cgroup/cpuset rw,relatime - cgroup cgroup rw,cpuset
+41 37 0:33 / /sys/fs/cgroup/memory rw,relatime - cgroup cgroup rw,memory
+42 37 0:34 / /sys/fs/cgroup/devices rw,relatime - cgroup cgroup rw,devices
+43 37 0:35 / /sys/fs/cgroup/freezer rw,relatime - cgroup cgroup rw,freezer
+44 37 0:36 / /sys/fs/cgroup/blkio rw,relatime - cgroup cgroup rw,blkio
+45 37 0:37 / /sys/fs/cgroup/pids rw,relatime - cgroup cgroup rw,pids
+46 37 0:38 / /sys/fs/cgroup/systemd rw,relatime - cgroup cgroup rw,name=systemd
+47 37 0:39 / /sys/fs/cgroup/unified rw,relatime - cgroup2 cgroup2 rw
+48 28 0:40 / /run/sandbox-telemetry rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,size=1024k,mode=755,uid=64321,gid=64321
